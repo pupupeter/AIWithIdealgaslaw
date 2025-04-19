@@ -4,7 +4,7 @@ from smolagents import CodeAgent, LiteLLMModel
 def process_question(question):
     # Initialize the LiteLLMModel with the provided model ID and API key
     model_id = "gemini/gemini-2.0-flash"
-    model = LiteLLMModel(model_id=model_id, GEMINI_API_KEY="AIzaSyBJj-7Am6kkBj-HGjex-d22j78HzNTRLK8")
+    model = LiteLLMModel(model_id=model_id, GEMINI_API_KEY="YOUR GEMINI_API_KEY")
     
     # Initialize the CodeAgent for both agents A and B
     agent_a = CodeAgent(tools=[], model=model, add_base_tools=True)
