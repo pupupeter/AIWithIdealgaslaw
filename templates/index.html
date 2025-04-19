@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>理想氣體模擬器</title>
+</head>
+<body>
+    <h1>🧪 理想氣體方程式 AI 模擬器</h1>
+    <form method="post">
+        <label for="question">請輸入問題：</label><br>
+        <textarea name="question" rows="3" cols="50"></textarea><br><br>
+        <input type="checkbox" name="plot_checkbox" checked> 繪製對應的 P-V 曲線<br><br>
+        <button type="submit">開始模擬</button>
+    </form>
+
+    <div style="margin-top: 30px;">
+        {% if response %}
+            <div>{{ response|safe }}</div>
+        {% endif %}
+        {% if plot_html %}
+            <div>{{ plot_html|safe }}</div>
+        {% endif %}
+    </div>
+</body>
+</html>
