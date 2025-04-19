@@ -55,6 +55,8 @@ https://github.com/pupupeter/AIWithIdealgaslaw/blob/main/app.py
 
 agents.py :
 
+https://github.com/pupupeter/AIWithIdealgaslaw/blob/main/agents.py
+
 #### Once started, Gradio or flask will automatically launch a web interface at the following URL:
 
 and enter your questions and interact with the AI assistant and professor.
