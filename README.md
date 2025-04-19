@@ -38,6 +38,8 @@ Run the following command to install the required dependencies in your project f
 pip install smolagents
 pip install gradio
 pip install flask
+pip install plotly
+
 ```
 
 ### 3.3 Run the Application
@@ -87,8 +89,8 @@ and enter your questions and interact with the AI assistant and professor.
      +----------------------------+
                  |
                  v
-       +---------------------+
-       | Gradio Output Panel |
-       +---------------------+
+       +-----------------------------+
+       | Gradio or flaskOutput Panel |
+       +-----------------------------+
 
 ```
