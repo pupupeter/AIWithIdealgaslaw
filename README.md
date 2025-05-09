@@ -1,7 +1,11 @@
 # AIWithIdealgaslaw
 AIWithIdealgaslaw use
 
+example :![15151](https://github.com/user-attachments/assets/f4708a5b-9d2d-4491-b391-0b8cc919d693)
 
+![6225](https://github.com/user-attachments/assets/64cf05e5-eb88-4e16-91dd-c4b6a89bf921)
+
+-->real anserw  kkkk
 # Ideal Gas Law AI Simulator
 
 ## 1. Project Overview
